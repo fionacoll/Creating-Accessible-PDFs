@@ -1,37 +1,14 @@
-## Welcome to GitHub Pages
+## Welcome!
 
-You can use the [editor on GitHub](https://github.com/fionacoll/Creating-Accessible-PDFs/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+The PDF format was developed in order to keep a document looking the same no matter what device or operating system is used to view it. This means that PDFs are great for "locking" formatting into place for printing purposes, for example. However, PDFs can be very difficult to navigate using assistive technologies like screen readers or text-to-speech technologies because the format was not originally designed with accessibility in mind.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+In order for a PDF to be accessible, it must have [basic document accessibility features](https://ww1.oswego.edu/accessibility/basic-accessibility-principles)--true structured content, good color contrast, alternative text descriptions for visuals, and descriptive hyperlinks--as well as a tagged structure, a logical reading order, sequential tabbing orders, and metadata that conveys information like the document's language to assistive technologies.
 
-### Markdown
+In other words, creating an accessible-as-possible PDF involves a lot of behind-the-scenes technical work! **Unfortunately, PDFs generated using Word's print-as-pdf function, Google Doc's "Download as PDF" menu item, and through free online tools like ilovepdf.com or smallpdf.com are not accessible, as those options don't do all that behind-the-scenes work.** As a general rule, if a tool is free, it probably won't produce an accessible PDF.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+This guide is an introduction to the process of ensuring that the PDFs you share with others are as accessible as possible. For now, concentrate on learning how to make new PDFs accessible. You can start chipping away at accesibility problems in your already-existing PDFs once you have a better sense of what accessibility means when it comes to this document format.
 
-```markdown
-Syntax highlighted code block
+To begin, choose one of the following options:
 
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/fionacoll/Creating-Accessible-PDFs/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+- I have material in a different format (such as a Word or Google Doc file), and I'd like turn it into an accessible PDF.
+- I have an existing PDF document, and I'd like to improve its accessibility.
